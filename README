@@ -1,0 +1,8 @@
+Functionality can be found in data/grid.js
+
+To do:
+Fix data: % values were truncated to int, a slight fix can be done by going back and rounding, may still leave incorrectly assigned other boxes
+
+Fill in blank spaces for same id entries
+
+Change functionality when clicking on a game entry to go to associated game page

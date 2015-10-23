@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>GameTypes</title>
+        <script type="text/javascript" src="d3/d3.v3.min.js"></script>
+		<script type="text/javascript" src="d3/tip.js"></script>
+		<script type="text/javascript" src="data/out_aa_100.json"></script>
+		<script type="text/javascript" src="data/out_game_100.json"></script>
+		<script type="text/javascript" src="data/titles.json"></script>
+		<script type="text/javascript" src="data/grid.js"></script>
+		<link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
+
+
+    </head>
+    <body onload="loadgrid()">
+		<d3content>
+		</d3content>
+		<legend>
+		</legend>
+        <script type="text/javascript">
+		    function loadgrid() {
+				gridgame(7)
+			}
+        </script> 
+    </body>
+</html>
