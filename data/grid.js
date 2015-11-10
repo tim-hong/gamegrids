@@ -181,7 +181,7 @@
              var leg = d3.select("legend")
                  .append("svg")
                  .attr("width", 300)
-                 .attr("height", 600);
+                 .attr("height", 1100);
 
              var inorder = ngames.games.concat(ngames.other)
              var lego = leg.selectAll("g")
@@ -381,7 +381,7 @@
              var leg = d3.select("legend")
                  .append("svg")
                  .attr("width", 600)
-                 .attr("height", 800);
+                 .attr("height", 1100);
 
              var inorder = ngames.games.concat(ngames.other)
 
