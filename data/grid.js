@@ -10,14 +10,14 @@
  //for a given game id
  //Each page should call this function in a script block
  function gridgame(id) {
-     d3.csv("./data/out_game.csv", function(d) {
+     d3.csv("out_game.csv", function(d) {
          return {
              gid: +d.gid, // convert "Year" column to Date
              aid: +d.aid,
              data: +d.data,
          };
      }, function(error, game) {
-         d3.csv("./data/out_aa.csv", function(d) {
+         d3.csv("out_aa.csv", function(d) {
              return {
                  gid: +d.gid, // convert "Year" column to Date
                  aid: +d.aid,
@@ -229,14 +229,14 @@
  }
 
  function gridaa(id) {
-     d3.csv("./data/out_game.csv", function(d) {
+     d3.csv("out_game.csv", function(d) {
          return {
              gid: +d.gid, // convert "Year" column to Date
              aid: +d.aid,
              data: +d.data,
          };
      }, function(error, game) {
-         d3.csv("./data/out_aa.csv", function(d) {
+         d3.csv("out_aa.csv", function(d) {
              return {
                  gid: +d.gid, // convert "Year" column to Date
                  aid: +d.aid,
