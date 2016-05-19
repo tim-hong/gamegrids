@@ -374,6 +374,7 @@
                          gridaa(d.aid)
                      }
                  });
+             document.getElementById("title").textContent=getgtitle(id);
              function drawtop5() {
                 tops = top5games()
                 document.getElementById("title0").textContent=getgtitle(tops[0]);
